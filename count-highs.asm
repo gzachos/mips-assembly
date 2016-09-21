@@ -24,7 +24,7 @@ loop:
 	srl	$a0, $a0, 1           # $a0 = $a0 >> 1
 	beq	$t0, $zero, loop      # if ($t0 == 0) goto loop
 	addi	$v0, $v0, 1           # $v0 += 1
-	j loop
+	j	loop
 exit_sub:
 	lw	$a0, 0($sp)   # $a0 = Mem[$sp]
 	addi	$sp, $sp, 4   # adjust stack pointer
