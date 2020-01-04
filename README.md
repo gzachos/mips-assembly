@@ -7,4 +7,4 @@ the Computer Architecture course at [cse.uoi.gr](http://cse.uoi.gr/).
 
 ## Developer
 
-[George Z. Zachos](http://cse.uoi.gr/~gzachos)
+[George Z. Zachos](https://gzachos.com)
